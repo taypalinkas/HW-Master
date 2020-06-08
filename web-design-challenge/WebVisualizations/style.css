@@ -1,0 +1,30 @@
+/* body {
+    scroll:
+} */
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+
+#img-one {
+    width: 200px;
+    height:200px;
+}
+
+
+.dropdown-item {
+    display: hidden;
+}
+
+.dropdown-item a:active {
+    display: show;
+}
