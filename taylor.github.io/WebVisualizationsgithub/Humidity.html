@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humidity</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="WebVisualizations.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+        aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+    </button>
+          <div class="navbar-collapse collapse show" id="navbarSupportedContent" style>
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item dropdown show">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                    </a>
+                
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="Temp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="Wind.html">Wind-speed</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="cities_df.html">Data</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="Comparison.html">Comparison</a>
+                  </li>
+              </ul>
+          </div>
+    </nav>
+    <div class="containerL">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 id="first-header">Latitude vs. Humidity</h2>
+            <img id="bio-image-two" src="../Resources/assets/images/Fig2.png" alt="Your Name">
+          </section>
+          <p>As we can see from the scatter plot, there is no correlation between latitude and humidity.
+              There's a significant amount of cities that have humidity at 100%, and an odd group at the bottom with a higher latitude and no humidity.
+              It appears that a majority of cities have humidity at 60% or higher.
+          </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <div class="container=box">
+            <h3 id="humid-header">Visualizations</h3>
+                <div class="row">
+                    <figure id="humid-figure-1">
+                        <a href="Temp.html">
+                            <img id="humid-temp" src="../Resources/assets/images/Fig1.png"
+                            style="width:250px;height=250px">
+                        </a>
+                    </figure>
+                    <figure id="humid-figure-2">
+                        <a href="Cloudiness.html">
+                            <img id="humid-temp" src="../Resources/assets/images/Fig3.png"
+                            style="width:250px;height=250px">
+                        </a>
+                    </figure>
+                    <figure id="humid-figure-3">
+                        <a href="Humidity.html">
+                            <img id="humid-temp" src="../Resources/assets/images/Fig2.png"
+                            style="width:250px;height=250px">
+                        </a>
+                    </figure>
+                    <figure id="humid-figure-4">
+                        <a href="Wind.html">
+                            <img id="humid-temp" src="../Resources/assets/images/Fig4.png"
+                            style="width:250px;height=250px">
+                        </a>
+                    </figure>
+                </div>
+        </div>
+    </div>
+    
+</body>
+</html>
